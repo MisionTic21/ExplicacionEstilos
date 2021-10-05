@@ -1,0 +1,8 @@
+
+  
+@mixin fondoDiv($colorFondo, $colorSombra, $colorFuente) {
+    background-color: $colorFondo;
+    box-shadow: $colorSombra;
+    color: $colorFuente;
+    margin: 10px;
+}
